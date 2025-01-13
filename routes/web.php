@@ -8,4 +8,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/send-notification', [NotificationController::class, 'sendNotification']);
-Route::get('/calculator', [CalculatorController::class, 'calculator']);
